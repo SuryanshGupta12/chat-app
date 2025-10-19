@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ref, push, onValue } from 'firebase/database';
+import { ref, push } from 'firebase/database';
 import { useObjectVal } from 'react-firebase-hooks/database';
 import { signOut } from 'firebase/auth';
 import { auth, db } from './firebase';
